@@ -1,0 +1,35 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ assembly name="EnvDTE" #>
+<#@ assembly name="$(SolutionDir)\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll" #>
+<#@ assembly name="$(SolutionDir)\DB.CodeTemplate\bin\Debug\DB.CodeTemplate.dll" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Data" #>
+<#@ assembly name="System.Data.Entity.Design" #>
+<#@ assembly name="System.Xml" #>
+<#@ import namespace="DB.CodeTemplate" #>
+<#@ output extension=".txt" #>
+<#
+	/*
+	*** READ THIS: THE LOGIC FOR THIS T4 TEMPLATE HAS BEEN MOVED  ***
+	*** INTO THE RxSense.CodeTemplates PROJECT AND CONVERTED FROM ***
+	*** *.t4 FILES TO NORMAL C# CLASSES. THIS MEANS YOU MUST:     ***
+	*** 1. COMPILE THE SOLUTION (OR AT LEAST THE                  ***
+	***    RxSense.CodeTemplates PROJECT) BEFORE RUNNING THE      ***
+	***    TEMPLATE.                                              ***
+	*** 2. CHOOSE "Debug T4 Template" FROM THE CONTEXT MENU       ***
+	***    THAT APPEARS WHEN YOU RIGHT-CLICK THIS FILE IN         ***
+	***    VISUAL STUDIO. (I COULD EXPLAIN WHY, BUT IT'S          ***
+	***    COMPLICATED, AND YOU DON'T CARE.) SELECTING            ***
+	***    "Run Custom Tool" WON'T WORK. SAVING THIS FILE WON'T   ***
+	***    WORK. THE ONLY WAY THAT WORKS IS "Debug T4 Template."  ***
+	*** 3. IF YOU GET AN ERROR THAT SAYS A FILE WAS IS USE,       ***
+	***    TRY IT AGAIN. IF YOU CAN'T GET IT TO WORK, ASK Dó.     ***
+	*** 4. Sometimes the T4VSHostProcess.exe hangs after template ***
+	***    generation and needs to be killed via task manager.    ***
+	***    This is usually the case when you try to build the	  ***
+	***    project and it says dlls or obj couldn't be found or   ***
+	***    are locked.											  ***
+	*/
+	var host = (IServiceProvider)Host;
+	Template.Run(host);
+#>

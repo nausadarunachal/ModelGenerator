@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.Models", "DB.Models\DB.Models.csproj", "{DD909A21-D980-4933-88DA-D6AF62E01A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.CodeTemplate", "DB.CodeTemplate\DB.CodeTemplate.csproj", "{A48E03E8-2407-4C46-A1BD-37F29AA5DBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.DAL", "DB.DAL\DB.DAL.csproj", "{4C90C1D1-C15B-4862-9574-22312BC5D984}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD909A21-D980-4933-88DA-D6AF62E01A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD909A21-D980-4933-88DA-D6AF62E01A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD909A21-D980-4933-88DA-D6AF62E01A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD909A21-D980-4933-88DA-D6AF62E01A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48E03E8-2407-4C46-A1BD-37F29AA5DBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48E03E8-2407-4C46-A1BD-37F29AA5DBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48E03E8-2407-4C46-A1BD-37F29AA5DBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48E03E8-2407-4C46-A1BD-37F29AA5DBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C90C1D1-C15B-4862-9574-22312BC5D984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C90C1D1-C15B-4862-9574-22312BC5D984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C90C1D1-C15B-4862-9574-22312BC5D984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C90C1D1-C15B-4862-9574-22312BC5D984}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4A4FF48-D935-4898-BAFA-DA415EC18C50}
+	EndGlobalSection
+EndGlobal

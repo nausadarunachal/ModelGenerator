@@ -1,0 +1,14 @@
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\DB.CodeTemplate.dll
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\DB.CodeTemplate.pdb
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\DB.CodeTemplate.dll.config
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.dll
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.SqlServer.dll
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\Newtonsoft.Json.dll
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.xml
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.SqlServer.xml
+D:\Models\DB.Models\DB.CodeTemplate\bin\Debug\Newtonsoft.Json.xml
+D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.csprojAssemblyReference.cache
+D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.csproj.CoreCompileInputs.cache
+D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.csproj.CopyComplete
+D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.dll
+D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.pdb
