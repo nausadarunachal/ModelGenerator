@@ -8,16 +8,16 @@
    *** or change the template code, at the project path     ***
    *** below.                                               ***
 
-   *** DB.Models/Code Templates/RxSenseDb.tt     ***
+   *** DB.Models/Code Templates/TextTemplate.tt     ***
 */
 namespace DB.DAL
 {
 	using InteractivePreGeneratedViews;
 	using log4net;
-	using Models.DB;
+	
 	using System.Data.Entity;
 
-	public partial class RxSenseDb : DbContext
+	public partial class ContextDb : DbContext
 	{
 		#region static members
 
@@ -27,11 +27,11 @@ namespace DB.DAL
 
 		#region static constructor
 
-		static RxSenseDb()
+		static ContextDb()
 		{
-			Database.SetInitializer<RxSenseDb>(null);
-			Log = LogManager.GetLogger(typeof(RxSenseDb));
-			using (var ctx = new RxSenseDb())
+			Database.SetInitializer<ContextDb>(null);
+			Log = LogManager.GetLogger(typeof(ContextDb));
+			using (var ctx = new ContextDb())
 			{
 				InteractiveViews
 					.SetViewCacheFactory(
@@ -51,20 +51,7 @@ namespace DB.DAL
 
 		#region member datasets
 
-		public DbSet<AspNetRoleClaimsModel> AspNetRoleClaimsModel { get; set; }
-		public DbSet<AspNetRolesModel> AspNetRolesModel { get; set; }
-		public DbSet<AspNetUserClaimsModel> AspNetUserClaimsModel { get; set; }
-		public DbSet<AspNetUserLoginsModel> AspNetUserLoginsModel { get; set; }
-		public DbSet<AspNetUserRolesModel> AspNetUserRolesModel { get; set; }
-		public DbSet<AspNetUsersModel> AspNetUsersModel { get; set; }
-		public DbSet<AspNetUserTokensModel> AspNetUserTokensModel { get; set; }
-		public DbSet<ConsultantModel> ConsultantModel { get; set; }
-		public DbSet<ExpertiseAreaModel> ExpertiseAreaModel { get; set; }
-		public DbSet<GroupMembersModel> GroupMembersModel { get; set; }
-		public DbSet<GroupModel> GroupModel { get; set; }
-		public DbSet<GroupTypeModel> GroupTypeModel { get; set; }
-		public DbSet<UserModel> UserModel { get; set; }
-		public DbSet<WorkExpModel> WorkExpModel { get; set; }
+		
 
 		#endregion
 

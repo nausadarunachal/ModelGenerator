@@ -405,8 +405,8 @@
                 !string.IsNullOrWhiteSpace(t.ActiveColumnName)
                 && subClass != TemplateConstants.ModelsSubclassEffDate;
             const bool needsUsingNewtonsoftJson = false;
-            var needsUsingRxSenseModelsAttributes = needsModelTableAttribute;
-            var needsUsingRxSenseModelsInterfaces = interfaces.Count > 0;
+            var needsUsingModelsAttributes = needsModelTableAttribute;
+            var needsUsingModelsInterfaces = interfaces.Count > 0;
             var needsUsingSystem = t.Columns
                 .Where(a => subClass != TemplateConstants.ModelsSubclassEffDate
                             || !ModelsSubclassEffDateExcludedColumns.ContainsKey(a.Name))
@@ -433,7 +433,7 @@
                 //	|| needsNotMappedAttribute
                 || needsTableAttribute;
             const bool needsUsingSystemRuntimeSerialization = false;
-            var needsUsingRxSenseModelsDbCustom = interfaces.Contains("IDateRange");
+            var needsUsingModelsDbCustom = interfaces.Contains("IDateRange");
             AddGeneratedDisclaimer(sb);
             AddUsing(
                 needsUsingDGDeanModelsAttributes,
@@ -448,15 +448,15 @@
                 sb,
                 "Newtonsoft.Json");
             AddUsing(
-                needsUsingRxSenseModelsAttributes,
+                needsUsingModelsAttributes,
                 sb,
                 "DB.Models.Attributes");
             AddUsing(
-                needsUsingRxSenseModelsInterfaces,
+                needsUsingModelsInterfaces,
                 sb,
                 "DB.Models.Interfaces");
             AddUsing(
-                needsUsingRxSenseModelsDbCustom,
+                needsUsingModelsDbCustom,
                 sb,
                 "DB.Models.DB.Custom");
             AddUsing(needsUsingSystem, sb, "System");

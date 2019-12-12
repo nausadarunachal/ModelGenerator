@@ -32,7 +32,7 @@
         public const string DbColumnNameMappings =
             @"cm_BrokerFee.BrokerFee:BrokerFeeAmount,
 			SR_MelissaCode.CodeType:CodeTypeId";
-        public const string DbContextClassName = "RxSenseDb";
+        public const string DbContextClassName = "ContextDb";
         public const string DbContextNamespace = "DB.DAL";
         public const string DbContextProject = "DB.DAL";
         public const string DbContextProjectRelativePath = "";
@@ -136,7 +136,7 @@
                 "   *** either run the template that created it again,       ***\r\n" +
                 "   *** or change the template code, at the project path     ***\r\n" +
                 "   *** below.                                               ***\r\n\r\n" +
-                "   *** DB.Models/Code Templates/RxSenseDb.tt     ***\r\n" +
+                "   *** DB.Models/Code Templates/TextTemplate.tt     ***\r\n" +
                 "*/\r\n";
         public const string ModelsNamespace = "DB.Models.DB";
         public const string ModelsNamespaceDbContext = "Models.DB";

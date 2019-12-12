@@ -15,24 +15,24 @@ namespace DB.DAL
     using System.Linq;
     using System.Threading.Tasks;
 
-    public partial class RxSenseDb
+    public partial class ContextDb
     {
         #region private static members
 
         private static readonly Lazy<bool> LogDbConnections =
             new Lazy<bool>(() => ConfigurationManager.AppSettings[
-            "DB.DAL.RxSenseDb.LogDbConnections"] == "1");
+            "DB.DAL.ContextDb.LogDbConnections"] == "1");
 
         private static readonly Lazy<bool>
             PopulateOAuthUsernameInDbSessionContext =
             new Lazy<bool>(() => ConfigurationManager.AppSettings[
-            "DB.DAL.RxSenseDb.PopulateOAuthUsernameInDbSessionContext"]
+            "DB.DAL.ContextDb.PopulateOAuthUsernameInDbSessionContext"]
             == "1");
 
         private static readonly Lazy<string>
             DbSessionContextKeyOauthUserName =
             new Lazy<string>(() => ConfigurationManager.AppSettings[
-            "DB.DAL.RxSenseDb.DbSessionContextKeyOauthUserName"]);
+            "DB.DAL.ContextDb.DbSessionContextKeyOauthUserName"]);
 
         #endregion
 
@@ -43,7 +43,7 @@ namespace DB.DAL
         #endregion
 
         #region constructor
-        public RxSenseDb(
+        public ContextDb(
             bool useWriteDb = false,
             int? commandTimeout = null)
             : base(useWriteDb
@@ -133,7 +133,7 @@ namespace DB.DAL
             }
             catch (DbEntityValidationException ex)
             {
-                Log.Error("DbEntityValidation Error from RxSenseDb.SaveChangesAsync()", ex);
+                Log.Error("DbEntityValidation Error from ContextDb.SaveChangesAsync()", ex);
                 throw;
             }
         }
