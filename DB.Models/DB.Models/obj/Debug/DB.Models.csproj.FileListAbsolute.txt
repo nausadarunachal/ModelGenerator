@@ -11,3 +11,15 @@ D:\Models\DB.Models\DB.Models\bin\Debug\EntityFramework.dll
 D:\Models\DB.Models\DB.Models\bin\Debug\EntityFramework.SqlServer.dll
 D:\Models\DB.Models\DB.Models\bin\Debug\EntityFramework.xml
 D:\Models\DB.Models\DB.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\DB.Models.dll.config
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\DB.Models.pdb
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\EntityFramework.dll
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\Newtonsoft.Json.dll
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\EntityFramework.xml
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\ModelGenerator\DB.Models\DB.Models\bin\Debug\Newtonsoft.Json.xml
+D:\ModelGenerator\DB.Models\DB.Models\obj\Debug\DB.Models.csprojAssemblyReference.cache
+D:\ModelGenerator\DB.Models\DB.Models\obj\Debug\DB.Models.csproj.CopyComplete
+D:\ModelGenerator\DB.Models\DB.Models\obj\Debug\DB.Models.dll
+D:\ModelGenerator\DB.Models\DB.Models\obj\Debug\DB.Models.pdb

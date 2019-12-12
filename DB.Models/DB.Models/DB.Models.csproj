@@ -67,34 +67,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DB\AspNetRoleClaimsModel.cs" />
-    <Compile Include="DB\AspNetRolesModel.cs" />
-    <Compile Include="DB\AspNetUserClaimsModel.cs" />
-    <Compile Include="DB\AspNetUserLoginsModel.cs" />
-    <Compile Include="DB\AspNetUserRolesModel.cs" />
-    <Compile Include="DB\AspNetUsersModel.cs" />
-    <Compile Include="DB\AspNetUserTokensModel.cs" />
-    <Compile Include="DB\ConsultantModel.cs" />
-    <Compile Include="DB\ExpertiseAreaModel.cs" />
-    <Compile Include="DB\GroupMembersModel.cs" />
-    <Compile Include="DB\GroupModel.cs" />
-    <Compile Include="DB\GroupTypeModel.cs" />
-    <Compile Include="DB\UserModel.cs" />
-    <Compile Include="DB\WorkExpModel.cs" />
     <Compile Include="Interfaces\IDateRange.cs" />
     <Compile Include="Interfaces\IDeletable.cs" />
     <Compile Include="Interfaces\IPopulateDates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CodeTemplates\RxSenseDb.tt">
+    <Content Include="CodeTemplates\TextTemplate.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>RxSenseDb.txt</LastGenOutput>
+      <LastGenOutput>TextTemplate.txt</LastGenOutput>
     </Content>
-    <Content Include="CodeTemplates\RxSenseDb.txt">
+    <Content Include="CodeTemplates\TextTemplate.txt">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RxSenseDb.tt</DependentUpon>
+      <DependentUpon>TextTemplate.tt</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +90,8 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DB\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,10 +11,10 @@
 <#
 	/*
 	*** READ THIS: THE LOGIC FOR THIS T4 TEMPLATE HAS BEEN MOVED  ***
-	*** INTO THE RxSense.CodeTemplates PROJECT AND CONVERTED FROM ***
+	*** INTO THE DB.CodeTemplates PROJECT AND CONVERTED FROM ***
 	*** *.t4 FILES TO NORMAL C# CLASSES. THIS MEANS YOU MUST:     ***
 	*** 1. COMPILE THE SOLUTION (OR AT LEAST THE                  ***
-	***    RxSense.CodeTemplates PROJECT) BEFORE RUNNING THE      ***
+	***    DB.CodeTemplates PROJECT) BEFORE RUNNING THE      ***
 	***    TEMPLATE.                                              ***
 	*** 2. CHOOSE "Debug T4 Template" FROM THE CONTEXT MENU       ***
 	***    THAT APPEARS WHEN YOU RIGHT-CLICK THIS FILE IN         ***

@@ -1,6 +1,6 @@
-﻿using RxSense.Contracts.Group;
+﻿using Contracts.Group;
 
-namespace RxSense.DAL
+namespace DAL
 {
     using AutoMapper;
     using CodeFirstStoredProcs;
@@ -14,29 +14,29 @@ namespace RxSense.DAL
     using Models.DB;
     using ProcParms;
     using ProcResults;
-    using RxSense.Contracts.AmountCalculationSetRule;
-    using RxSense.Contracts.BenefitDesign;
-    using RxSense.Contracts.Bin.Search;
-    using RxSense.Contracts.CopayTier;
-    using RxSense.Contracts.CostCalculationSet;
-    using RxSense.Contracts.CustomNDC;
-    using RxSense.Contracts.DispensingFeeRuleSet;
-    using RxSense.Contracts.Drug;
-    using RxSense.Contracts.InternalBillingGroup;
-    using RxSense.Contracts.Member;
-    using RxSense.Contracts.Network;
-    using RxSense.Contracts.NetworkPricingSet;
-    using RxSense.Contracts.PriceRuleSet;
-    using RxSense.Contracts.PriorAuthorization;
-    using RxSense.Contracts.UserPermissions;
-    using RxSense.Models;
-    using RxSense.Utility.Context;
+    using Contracts.AmountCalculationSetRule;
+    using Contracts.BenefitDesign;
+    using Contracts.Bin.Search;
+    using Contracts.CopayTier;
+    using Contracts.CostCalculationSet;
+    using Contracts.CustomNDC;
+    using Contracts.DispensingFeeRuleSet;
+    using Contracts.Drug;
+    using Contracts.InternalBillingGroup;
+    using Contracts.Member;
+    using Contracts.Network;
+    using Contracts.NetworkPricingSet;
+    using Contracts.PriceRuleSet;
+    using Contracts.PriorAuthorization;
+    using Contracts.UserPermissions;
+    using Models;
+    using Utility.Context;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
 
-    public partial class RxSenseDb
+    public partial class ContextDb
     {
         #region dr_Claim_Search
 

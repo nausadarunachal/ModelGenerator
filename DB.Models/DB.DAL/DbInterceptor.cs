@@ -6,7 +6,7 @@
 
     /// NOT CURRENTLY IN USE...  IF NEEDED, ADD CONFIG AND SUBSCRIBER
 
-    public class RxSenseDbInterceptor : IDbCommandInterceptor
+    public class DbInterceptor : IDbCommandInterceptor
     {
         public void NonQueryExecuting(DbCommand command, DbCommandInterceptionContext<int> interceptionContext)
         {

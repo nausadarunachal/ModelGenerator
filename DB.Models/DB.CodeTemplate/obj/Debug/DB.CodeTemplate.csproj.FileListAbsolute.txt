@@ -12,3 +12,16 @@ D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.csproj.CoreCompile
 D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.csproj.CopyComplete
 D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.dll
 D:\Models\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.pdb
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\DB.CodeTemplate.dll
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\DB.CodeTemplate.dll.config
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.dll
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.SqlServer.dll
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\Newtonsoft.Json.dll
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.xml
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\EntityFramework.SqlServer.xml
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\Newtonsoft.Json.xml
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.csprojAssemblyReference.cache
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.csproj.CopyComplete
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.dll
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\obj\Debug\DB.CodeTemplate.pdb
+D:\ModelGenerator\DB.Models\DB.CodeTemplate\bin\Debug\DB.CodeTemplate.pdb

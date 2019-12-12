@@ -82,10 +82,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContextDb.cs" />
+    <Compile Include="DbInterceptor.cs" />
+    <Compile Include="DbUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RxSenseDb.cs" />
-    <Compile Include="RxSenseDbInterceptor.cs" />
-    <Compile Include="RxSenseDbUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
